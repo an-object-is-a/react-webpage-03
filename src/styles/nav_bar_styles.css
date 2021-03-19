@@ -1,0 +1,161 @@
+:root {
+    --nav_bar_height: 80px;
+}
+
+.nav_bar {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    transition-duration: 0.3s;
+    pointer-events: none;
+}
+
+.nav_container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #111111;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.menu_switch {
+    width: var(--nav_bar_height);
+    height: var(--nav_bar_height);
+    position: absolute;
+    right: 0%;
+    z-index: 999999;
+
+    font-size: 4em;
+    pointer-events: all;
+}
+
+.menu_switch i {
+    cursor: pointer;
+}
+
+.back_contrast {
+    width: 0%;
+    height: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 50px 50px black;
+}
+
+.menu_items {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    list-style: none;
+
+    color: white;
+}
+
+.menu_items li {
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.menu_items li a {
+    text-decoration: none;
+    color: white;
+    pointer-events: all;
+}
+
+@media screen and (max-width: 600px) {
+    .nav_bar {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nav_container {
+        transform: translateX(-100%);
+    }
+
+    .menu_switch {
+
+        font-size: 2em;
+    }
+
+    .logo {
+        width: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        font-size: 20em;
+        opacity: 0.3;
+
+        color: red;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu_items {
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        font-size: 50px;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .nav_bar {
+        width: 100%;
+        height: var(--nav_bar_height);
+    }
+
+    .nav_container {
+        transform: translateY(-100%);
+    }
+
+    .logo {
+        width: var(--nav_bar_height);
+        height: var(--nav_bar_height);
+        position: absolute;
+        left: 1%;
+
+        font-size: 4em;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu_items {
+        width: 50vw;
+    }
+}
+
+.menu_active {
+    opacity: 1;
+    transform: translate(0%, 0%);
+}

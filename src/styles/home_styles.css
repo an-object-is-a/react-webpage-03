@@ -1,0 +1,495 @@
+.section1 {
+    width: 100vw;
+    max-width: 100%;
+    height: 50vw;
+    position: relative;
+    z-index: 9;
+
+    background-color: black;
+}
+
+.section2 {
+    padding: 50px 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #ece8e1;
+}
+
+.section3 {
+    width: 100vw;
+    max-width: 100%;
+    height: 150px;
+    position: relative;
+
+    background-color: #ff4655;
+}
+
+.section4 {
+    padding: 50px 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #ece8e1;
+}
+
+.section5 {
+    width: 100vw;
+    max-width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
+    background-color: #111111;
+}
+
+/* ************ Section 1 Children **************** */
+.section1 .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    pointer-events: none;
+}
+
+.splash_image {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    bottom: -10%;
+    z-index: -7;
+
+    pointer-events: none;
+}
+
+.splash_logo {
+    margin: 0 0 15px 0;
+    width: auto;
+    height: 15%;
+    position: relative;
+    top: 55%;
+    left: 5%;
+
+    pointer-events: none;
+}
+
+.sign_up {
+    width: 128px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55%;
+    left: 15%;
+
+    background-color: #ff4655;
+    box-shadow: 0 0 5px 2px black;
+
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.sign_up a {
+    color: #ece8e1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.gallery {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+
+    overflow: hidden;
+}
+
+
+
+/* ************ Section 2 Children **************** */
+.marketing_points_container {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: repeat(2, 190px);
+    grid-template-columns: repeat(4, 190px);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.point {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.point_head {
+    margin: 0 0 15px 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point_head img {
+    width: 30%;
+    height: auto;
+}
+
+.point_body {
+    width: 100%;
+    height: 70%;
+}
+
+.point_name {
+    font-size: 30px;
+}
+
+.point_description {
+    font-size: 15px;
+}
+
+
+/* ************ Section 3 Children **************** */
+.accolades_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.accolade {
+    color: #ece8e1;
+    font-size: 80px;
+}
+
+
+
+
+/* ************ Section 4 Children **************** */
+.packages_container {
+    width: fit-content;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.package {
+    margin: 0 10px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    flex-shrink: 0;
+
+    color: #ece8e1;
+
+    overflow: hidden;
+}
+
+.package_image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.package_information {
+    padding: 20px 30px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.package_head {
+    width: 100%;
+    height: 30%;
+    filter: brightness(200%);
+}
+
+.package_name {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+}
+
+.package_description {
+    font-size: 25px;
+}
+
+.package_body {
+    width: 100%;
+    height: 30%;
+}
+
+.package_price {
+    font-size: 70px;
+}
+
+.package_purchase {
+    width: 128px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ff4655;
+    box-shadow: 0 0 5px 2px black;
+
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.package_purchase a {
+    color: #ece8e1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.package_foot {
+    width: 100%;
+    height: 40%;
+
+    font-size: 30px;
+
+    filter: brightness(200%);
+}
+
+.package_foot ul {
+    font-size: 25px;
+}
+
+
+
+
+/* ************ Section 5 Children **************** */
+.contacts_container {
+    padding: 60px 0 0 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_section {
+    width: 200px;
+    height: 100%;
+
+    color: #ece8e1;
+    font-size: 22px;
+}
+
+
+/* ------------------- Mobile -------------------*/
+@media only screen and (max-width: 501px) {
+    .section1 {
+        height: 250px;
+        max-width: unset;
+    }
+
+    .section2 {
+        padding: 10px;
+        height: 600px;
+    }
+
+    .section3 {
+        height: 120px;
+    }
+
+    .section4 {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    /* ------------------- Section 2 children -------------------*/
+
+    .marketing_points_container {
+        grid-template-rows: repeat(3, 130px);
+        grid-template-columns: repeat(2, 130px);
+    }
+
+    .point_name {
+        font-size: 20px;
+    }
+
+    .point_description {
+        font-size: 15px;
+    }
+
+    /* ------------------- Section 4 children -------------------*/
+    .packages_container {
+        height: fit-content;
+        display: block;
+    }
+
+    .package {
+        margin: 20px 0;
+        padding: 20px 30px;
+        width: 300px;
+        height: 500px;
+        display: block;
+    }
+
+    .package_head {
+        height: 20%;
+    }
+
+    .package_name {
+        font-size: 50px;
+    }
+
+    .package_foot ul {
+        font-size: 20px;
+    }
+
+    /* ------------------- Section 5 children -------------------*/
+    .contact_section {
+        margin: 0 10px;
+        width: fit-content;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+
+    /* ------------------- Section 1 children -------------------*/
+    .splash_image {
+        display: none;
+    }
+
+    .splash_logo {
+        width: 90%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .sign_up {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section1 {
+        height: calc(1024px / 1.7777);
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section1 {
+        height: 1200px;
+    }
+
+    .section2 {
+        height: 1000px;
+    }
+
+    .section3 {
+        height: 300px;
+    }
+
+    .section4 {
+        height: 1200px;
+    }
+
+    .section5 {
+        height: 700px;
+    }
+
+    /* ------------------- Section 1 children -------------------*/
+    .sign_up {
+        width: 312px;
+        height: 117px;
+    }
+
+    .sign_up a {
+        font-size: 50px;
+    }
+
+    /* ------------------- Section 2 children -------------------*/
+    .marketing_points_container {
+        grid-template-rows: repeat(2, 400px);
+        grid-template-columns: repeat(4, 400px);
+    }
+
+    .point_head {
+        font-size: 110px;
+    }
+
+    .point_name {
+        font-size: 70px;
+    }
+
+    .point_description {
+        font-size: 40px;
+    }
+
+    /* ------------------- Section 3 children -------------------*/
+    .accolade {
+        font-size: 140px;
+    }
+
+    /* ------------------- Section 4 children -------------------*/
+    .package {
+        width: 600px;
+        height: 900px;
+    }
+
+    .package_name {
+        font-size: 110px;
+    }
+
+    .package_description {
+        font-size: 60px;
+    }
+
+    .package_price {
+        font-size: 120px;
+    }
+
+    .package_purchase {
+        width: 196px;
+        height: 82px;
+    }
+
+    .package_purchase a {
+        font-size: 40px;
+    }
+
+    .package_foot {
+        font-size: 50px;
+    }
+
+    .package_foot ul {
+        font-size: 40px;
+    }
+
+    /* ------------------- Section 5 children -------------------*/
+    .contact_section {
+        width: 100%;
+        font-size: 70px;
+    }
+}
