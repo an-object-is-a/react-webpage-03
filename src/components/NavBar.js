@@ -36,17 +36,17 @@ function NavBar() {
 
             <div className={`nav_container ${showMenu ? 'menu_active' : null}`}>
                 <div className="icon_container logo">
-                    <img src="./images/icons/val-symbol.png" alt="" />
+                    <img src="./react-webpage-03/images/icons/val-symbol.png" alt="" />
                 </div>
                 <ul className="menu_items">
                     <li>
-                        <Link to="/" onClick={switch_menu}>Home</Link>
+                        <Link to="/react-webpage-03/" onClick={switch_menu}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/products" onClick={switch_menu}>Products</Link>
+                        <Link to="/react-webpage-03/products" onClick={switch_menu}>Products</Link>
                     </li>
                     <li>
-                        <Link to="/about" onClick={switch_menu}>About</Link>
+                        <Link to="/react-webpage-03/about" onClick={switch_menu}>About</Link>
                     </li>
                 </ul>
             </div>

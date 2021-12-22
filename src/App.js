@@ -13,9 +13,9 @@ function App() {
         <BrowserRouter>
             <NavBar />
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/products" component={Products} />
-                <Route exact path="/about" component={About} />
+                <Route exact path="/react-webpage-03/" component={Home} />
+                <Route exact path="/react-webpage-03/products" component={Products} />
+                <Route exact path="/react-webpage-03/about" component={About} />
             </Switch>
         </BrowserRouter>
     );
