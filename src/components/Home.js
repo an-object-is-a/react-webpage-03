@@ -62,8 +62,8 @@ function Home() {
         <div>
             <div className="section1">
                 <div className="container">
-                    <img src="./react-webpage-03/images/reyna.png" alt="" className="splash_image" />
-                    <img src="./react-webpage-03/images/val-logo.png" alt="" className="splash_logo" />
+                    <img src="./images/reyna.png" alt="" className="splash_image" />
+                    <img src="./images/val-logo.png" alt="" className="splash_logo" />
                     <div className="sign_up">
                         <a href="https://localhost" target="_blank" rel="noreferrer">Sign Up</a>
                     </div>
@@ -79,32 +79,32 @@ function Home() {
             <div className="section2">
                 <div className="marketing_points_container">
                     <Point
-                        icon="./react-webpage-03/images/icons/val-symbol.png"
+                        icon="./images/icons/val-symbol.png"
                         name="In the Crosses"
                         description="Rewards accuracy and skill"
                     />
                     <Point
-                        icon="./react-webpage-03/images/icons/bladestorm.png"
+                        icon="./images/icons/bladestorm.png"
                         name="In the Crosses"
                         description="Rewards accuracy and skill"
                     />
                     <Point
-                        icon="./react-webpage-03/images/icons/dimensional-drift.png"
+                        icon="./images/icons/dimensional-drift.png"
                         name="In the Crosses"
                         description="Rewards accuracy and skill"
                     />
                     <Point
-                        icon="./react-webpage-03/images/icons/empress.png"
+                        icon="./images/icons/empress.png"
                         name="In the Crosses"
                         description="Rewards accuracy and skill"
                     />
                     <Point
-                        icon="./react-webpage-03/images/icons/shock-bolt.png"
+                        icon="./images/icons/shock-bolt.png"
                         name="In the Crosses"
                         description="Rewards accuracy and skill"
                     />
                     <Point
-                        icon="./react-webpage-03/images/icons/turret.png"
+                        icon="./images/icons/turret.png"
                         name="In the Crosses"
                         description="Rewards accuracy and skill"
                     />
@@ -129,21 +129,21 @@ function Home() {
                 <div className="packages_container">
                     <Package
                         color="#2BAD31"
-                        image="./react-webpage-03/images/viper.png"
+                        image="./images/viper.png"
                         name="Package 1"
                         description="Just get the job done."
                         price="29"
                     />
                     <Package
                         color="#F56340"
-                        image="./react-webpage-03/images/phoenix.png"
+                        image="./images/phoenix.png"
                         name="Package 2"
                         description="Just get the job done."
                         price="29"
                     />
                     <Package
                         color="#3694F4"
-                        image="./react-webpage-03/images/jett.png"
+                        image="./images/jett.png"
                         name="Package 3"
                         description="Just get the job done."
                         price="29"
