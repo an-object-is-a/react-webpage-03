@@ -8,10 +8,10 @@ class Deck extends Component {
 
         this.state = {
             cards: [
-                <Card video file_name="./react-webpage-03/images/gallery/val-video.mp4" id="one" key="one" />,
-                <Card image file_name="./react-webpage-03/images/gallery/val-main-splash.jpg" id="two" key="two" />,
-                <Card image file_name="./react-webpage-03/images/gallery/val-screen-1.jpg" id="three" key="three" />,
-                <Card image file_name="./react-webpage-03/images/gallery/val-screen-0.jpg" id="four" key="four" />,
+                <Card video file_name="./images/gallery/val-video.mp4" id="one" key="one" />,
+                <Card image file_name="./images/gallery/val-main-splash.jpg" id="two" key="two" />,
+                <Card image file_name="./images/gallery/val-screen-1.jpg" id="three" key="three" />,
+                <Card image file_name="./images/gallery/val-screen-0.jpg" id="four" key="four" />,
             ]
         }
     }
